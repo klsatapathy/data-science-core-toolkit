@@ -1,0 +1,32 @@
+{
+  "politics": {
+    "subjects": ["Nirmala Sitharaman", "The Prime Minister", "A local politician", "The entire Parliament", "An unnamed government official"],
+    "actions": ["declares war on", "bans", "secretly funds", "accidentally leaks plans for", "orders an investigation into"],
+    "objects": ["Monday mornings", "the office WiFi router", "a suspicious samosa", "the national budget", "a rogue pigeon"],
+    "places": ["inside a Parliament building", "at the Red Fort", "during a live press conference", "in a secret underground bunker", "at India Gate"]
+  },
+  "bollywood": {
+    "subjects": ["Shah Rukh Khan", "A famous actor", "A Bollywood director", "A viral TikTok star", "An award-winning actress"],
+    "actions": ["announces", "cancels", "gets emotional about", "launches a surprise", "gets into a Twitter fight over"],
+    "objects": ["a 4-hour sequel nobody asked for", "his/her secret cooking show", "a biopic about a toaster", "a dance-off challenge", "a new fragrance line"],
+    "places": ["at a red carpet event", "on the set of his/her new film", "during a late-night talk show", "at a fan meetup", "on Instagram Live"]
+  },
+  "sports": {
+    "subjects": ["Virat Kohli", "A group of teenagers", "The entire cricket team", "A local gully cricket champion", "A confused umpire"],
+    "actions": ["celebrates", "criticizes", "accidentally wins", "demands a rematch after", "breaks a world record while"],
+    "objects": ["a match that hasn't started yet", "his own six", "a stray dog on the pitch", "the stadium snack menu", "a controversial no-ball"],
+    "places": ["during an IPL match", "at a packed stadium", "in a friendly street match", "during the World Cup final", "at practice nets"]
+  },
+  "tech": {
+    "subjects": ["Scientists", "A tech startup", "An AI chatbot", "A Mumbai-based engineer", "A group of coders"],
+    "actions": ["discovered a new planet", "launches", "accidentally deletes", "claims to have invented", "crashes the internet with"],
+    "objects": ["a time machine made of USB cables", "an app that translates cat meows", "the entire internet", "a robot that makes chai", "a spreadsheet with feelings"],
+    "places": ["in a secret lab", "on the moon", "inside a garage startup", "at a tech conference", "in a remote village"]
+  },
+  "local": {
+    "subjects": ["A Mumbai cat", "A local vendor", "An elderly uncle", "A group of neighbors", "A stray dog"],
+    "actions": ["eats", "orders", "starts a protest over", "opens a shop selling", "goes viral after eating"],
+    "objects": ["50 samosas in one sitting", "a suspicious-looking mango", "free WiFi passwords", "a mysterious tiffin box", "a giant vada pav"],
+    "places": ["in the heart of the city", "at a local school", "in a remote village", "at the neighborhood chai stall", "during a housing society meeting"]
+  }
+}
