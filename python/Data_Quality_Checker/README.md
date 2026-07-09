@@ -67,8 +67,8 @@ Rotating file + console logs covering file loading, validation progress, cleanin
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/data-quality-checker.git
-cd data-quality-checker
+[(https://github.com/klsatapathy/data-science-core-toolkit.git)]
+cd data-science-core-toolkit/python/Data_Quality_Checker
 
 # (Recommended) create a virtual environment
 python3 -m venv venv
@@ -150,7 +150,7 @@ The same backend that powers the CLI also powers an interactive Streamlit web ap
 
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 Then open the URL Streamlit prints (typically `http://localhost:8501`).
