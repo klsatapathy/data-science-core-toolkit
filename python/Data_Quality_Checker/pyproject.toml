@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "data-quality-checker"
+version = "1.0.0"
+description = "A professional CSV data-quality validation, profiling, cleaning, and reporting toolkit."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["data-quality", "csv", "validation", "data-engineering", "data-science", "pandas"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "charset-normalizer>=3.0",
+    "chardet>=5.0",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "tabulate>=0.9",
+]
+
+[project.optional-dependencies]
+rich = ["rich>=13.0"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+
+[project.scripts]
+data-quality-checker = "data_quality_checker.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["data_quality_checker*"]

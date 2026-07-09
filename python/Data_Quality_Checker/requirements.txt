@@ -1,0 +1,23 @@
+# Core data handling
+pandas>=2.0
+numpy>=1.24
+
+# Encoding detection
+charset-normalizer>=3.0
+chardet>=5.0
+
+# Visualization (optional, used with --visualize)
+matplotlib>=3.7
+seaborn>=0.12
+
+# Console reporting
+tabulate>=0.9
+
+# Optional: richer, colorized console output.
+# The app falls back to a plain-text console report automatically if
+# rich is not installed, so this dependency is not strictly required.
+rich>=13.0
+
+# Web application frontend (streamlit_utils/ + pages/ + app.py).
+# Only used by the Streamlit UI; the CLI (main.py) does not depend on it.
+streamlit>=1.35

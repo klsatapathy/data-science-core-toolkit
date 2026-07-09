@@ -1,0 +1,12 @@
+column,dtype,null_count,null_percentage,unique_count,duplicate_value_count,is_empty,whitespace_row_count,special_character_row_count,negative_value_count,invalid_email_count,invalid_phone_count,invalid_date_count,suspected_type_mismatch_count
+customer_id,int64,0,0.0,20,0,False,0,0,0.0,,,,0
+full_name,str,0,0.0,19,2,False,2,0,,,,,0
+email,str,1,5.0,18,2,False,0,0,,2.0,,,0
+phone_number,str,1,5.0,15,8,False,0,3,,,1.0,,1
+signup_date,str,0,0.0,19,2,False,0,0,,,,1.0,0
+country,str,1,5.0,7,13,False,0,0,,,,,0
+age,float64,4,20.0,15,2,False,0,0,0.0,,,,0
+annual_income,float64,3,15.0,17,0,False,0,0,2.0,,,,0
+notes,str,5,25.0,14,2,False,0,1,,,,,0
+phone_number_copy,str,1,5.0,15,8,False,0,3,,,1.0,,1
+loyalty_tier,float64,20,100.0,0,0,True,0,0,,,,,0

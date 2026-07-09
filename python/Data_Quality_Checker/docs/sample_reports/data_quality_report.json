@@ -1,0 +1,565 @@
+{
+  "source_file": "sample_data/sample_customers.csv",
+  "generated_at": "2026-07-09T12:29:03",
+  "profile": {
+    "total_rows": 20,
+    "total_columns": 11,
+    "column_names": [
+      "customer_id",
+      "full_name",
+      "email",
+      "phone_number",
+      "signup_date",
+      "country",
+      "age",
+      "annual_income",
+      "notes",
+      "phone_number_copy",
+      "loyalty_tier"
+    ],
+    "dtypes": {
+      "customer_id": "int64",
+      "full_name": "str",
+      "email": "str",
+      "phone_number": "str",
+      "signup_date": "str",
+      "country": "str",
+      "age": "float64",
+      "annual_income": "float64",
+      "notes": "str",
+      "phone_number_copy": "str",
+      "loyalty_tier": "float64"
+    },
+    "memory_usage_bytes": 9088,
+    "memory_usage_human": "8.88 KB",
+    "missing_value_totals": {
+      "customer_id": 0,
+      "full_name": 0,
+      "email": 1,
+      "phone_number": 1,
+      "signup_date": 0,
+      "country": 1,
+      "age": 4,
+      "annual_income": 3,
+      "notes": 5,
+      "phone_number_copy": 1,
+      "loyalty_tier": 20
+    },
+    "unique_value_counts": {
+      "customer_id": 20,
+      "full_name": 19,
+      "email": 18,
+      "phone_number": 15,
+      "signup_date": 19,
+      "country": 7,
+      "age": 15,
+      "annual_income": 17,
+      "notes": 14,
+      "phone_number_copy": 15,
+      "loyalty_tier": 0
+    },
+    "most_frequent_values": {
+      "customer_id": [
+        [
+          "1001",
+          1
+        ],
+        [
+          "1002",
+          1
+        ],
+        [
+          "1003",
+          1
+        ],
+        [
+          "1004",
+          1
+        ],
+        [
+          "1005",
+          1
+        ]
+      ],
+      "full_name": [
+        [
+          "Diana Prince",
+          2
+        ],
+        [
+          "  John Smith",
+          1
+        ],
+        [
+          "Jane Doe",
+          1
+        ],
+        [
+          "Bob Johnson",
+          1
+        ],
+        [
+          "Alice Brown ",
+          1
+        ]
+      ],
+      "email": [
+        [
+          "diana.prince@example.com",
+          2
+        ],
+        [
+          "john.smith@example.com",
+          1
+        ],
+        [
+          "jane.doe@example.com",
+          1
+        ],
+        [
+          "bob.johnson@@example.com",
+          1
+        ],
+        [
+          "alice.brown@example",
+          1
+        ]
+      ],
+      "phone_number": [
+        [
+          "555-345-6789",
+          2
+        ],
+        [
+          "+1-555-456-7890",
+          2
+        ],
+        [
+          "555-567-8901",
+          2
+        ],
+        [
+          "555-678-9012",
+          2
+        ],
+        [
+          "+1-555-123-4567",
+          1
+        ]
+      ],
+      "signup_date": [
+        [
+          "2023/06/18",
+          2
+        ],
+        [
+          "2023-01-15",
+          1
+        ],
+        [
+          "2023-02-20",
+          1
+        ],
+        [
+          "2023-03-05",
+          1
+        ],
+        [
+          "15/04/2023",
+          1
+        ]
+      ],
+      "country": [
+        [
+          "USA",
+          13
+        ],
+        [
+          "Canada",
+          1
+        ],
+        [
+          "UK",
+          1
+        ],
+        [
+          "Australia",
+          1
+        ],
+        [
+          "Spain",
+          1
+        ]
+      ],
+      "age": [
+        [
+          "38.0",
+          2
+        ],
+        [
+          "34.0",
+          1
+        ],
+        [
+          "29.0",
+          1
+        ],
+        [
+          "45.0",
+          1
+        ],
+        [
+          "31.0",
+          1
+        ]
+      ],
+      "annual_income": [
+        [
+          "54000.0",
+          1
+        ],
+        [
+          "61000.0",
+          1
+        ],
+        [
+          "72000.0",
+          1
+        ],
+        [
+          "-4800.0",
+          1
+        ],
+        [
+          "58000.0",
+          1
+        ]
+      ],
+      "notes": [
+        [
+          "Missing income",
+          2
+        ],
+        [
+          "Regular customer",
+          1
+        ],
+        [
+          "VIP client",
+          1
+        ],
+        [
+          "Refund issued",
+          1
+        ],
+        [
+          "New signup",
+          1
+        ]
+      ],
+      "phone_number_copy": [
+        [
+          "555-345-6789",
+          2
+        ],
+        [
+          "+1-555-456-7890",
+          2
+        ],
+        [
+          "555-567-8901",
+          2
+        ],
+        [
+          "555-678-9012",
+          2
+        ],
+        [
+          "+1-555-123-4567",
+          1
+        ]
+      ],
+      "loyalty_tier": []
+    },
+    "numeric_summary": {
+      "customer_id": {
+        "count": 20.0,
+        "mean": 1010.5,
+        "std": 5.9161,
+        "min": 1001.0,
+        "25%": 1005.75,
+        "50%": 1010.5,
+        "75%": 1015.25,
+        "max": 1020.0
+      },
+      "age": {
+        "count": 16.0,
+        "mean": 47.0,
+        "std": 29.1342,
+        "min": 27.0,
+        "25%": 33.75,
+        "50%": 38.5,
+        "75%": 46.75,
+        "max": 150.0
+      },
+      "annual_income": {
+        "count": 17.0,
+        "mean": 63511.7647,
+        "std": 30245.4931,
+        "min": -4800.0,
+        "25%": 58000.0,
+        "50%": 67000.0,
+        "75%": 77000.0,
+        "max": 120000.0
+      },
+      "loyalty_tier": {
+        "count": 0.0,
+        "mean": NaN,
+        "std": 0.0,
+        "min": NaN,
+        "25%": NaN,
+        "50%": NaN,
+        "75%": NaN,
+        "max": NaN
+      }
+    },
+    "categorical_summary": {
+      "full_name": {
+        "unique_count": 19,
+        "top_value": "Diana Prince",
+        "top_frequency": 2,
+        "avg_length": 11.3
+      },
+      "email": {
+        "unique_count": 18,
+        "top_value": "diana.prince@example.com",
+        "top_frequency": 2,
+        "avg_length": 22.89
+      },
+      "phone_number": {
+        "unique_count": 15,
+        "top_value": "555-345-6789",
+        "top_frequency": 2,
+        "avg_length": 12.11
+      },
+      "signup_date": {
+        "unique_count": 19,
+        "top_value": "2023/06/18",
+        "top_frequency": 2,
+        "avg_length": 10.0
+      },
+      "country": {
+        "unique_count": 7,
+        "top_value": "USA",
+        "top_frequency": 13,
+        "avg_length": 4.16
+      },
+      "notes": {
+        "unique_count": 14,
+        "top_value": "Missing income",
+        "top_frequency": 2,
+        "avg_length": 13.93
+      },
+      "phone_number_copy": {
+        "unique_count": 15,
+        "top_value": "555-345-6789",
+        "top_frequency": 2,
+        "avg_length": 12.11
+      }
+    }
+  },
+  "validation": {
+    "total_rows": 20,
+    "total_columns": 11,
+    "duplicate_row_count": 0,
+    "duplicate_row_percentage": 0.0,
+    "duplicate_column_pairs": [
+      [
+        "phone_number",
+        "phone_number_copy"
+      ]
+    ],
+    "empty_columns": [
+      "loyalty_tier"
+    ],
+    "columns": {
+      "customer_id": {
+        "dtype": "int64",
+        "null_count": 0,
+        "null_percentage": 0.0,
+        "unique_count": 20,
+        "duplicate_value_count": 0,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 0,
+        "negative_value_count": 0,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      },
+      "full_name": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_percentage": 0.0,
+        "unique_count": 19,
+        "duplicate_value_count": 2,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": true,
+        "whitespace_row_count": 2,
+        "special_character_row_count": 0,
+        "negative_value_count": null,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      },
+      "email": {
+        "dtype": "str",
+        "null_count": 1,
+        "null_percentage": 5.0,
+        "unique_count": 18,
+        "duplicate_value_count": 2,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 0,
+        "negative_value_count": null,
+        "invalid_email_count": 2,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      },
+      "phone_number": {
+        "dtype": "str",
+        "null_count": 1,
+        "null_percentage": 5.0,
+        "unique_count": 15,
+        "duplicate_value_count": 8,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 3,
+        "negative_value_count": null,
+        "invalid_email_count": null,
+        "invalid_phone_count": 1,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 1
+      },
+      "signup_date": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_percentage": 0.0,
+        "unique_count": 19,
+        "duplicate_value_count": 2,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 0,
+        "negative_value_count": null,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": 1,
+        "suspected_type_mismatch_count": 0
+      },
+      "country": {
+        "dtype": "str",
+        "null_count": 1,
+        "null_percentage": 5.0,
+        "unique_count": 7,
+        "duplicate_value_count": 13,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 0,
+        "negative_value_count": null,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      },
+      "age": {
+        "dtype": "float64",
+        "null_count": 4,
+        "null_percentage": 20.0,
+        "unique_count": 15,
+        "duplicate_value_count": 2,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 0,
+        "negative_value_count": 0,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      },
+      "annual_income": {
+        "dtype": "float64",
+        "null_count": 3,
+        "null_percentage": 15.0,
+        "unique_count": 17,
+        "duplicate_value_count": 0,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 0,
+        "negative_value_count": 2,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      },
+      "notes": {
+        "dtype": "str",
+        "null_count": 5,
+        "null_percentage": 25.0,
+        "unique_count": 14,
+        "duplicate_value_count": 2,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 1,
+        "negative_value_count": null,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      },
+      "phone_number_copy": {
+        "dtype": "str",
+        "null_count": 1,
+        "null_percentage": 5.0,
+        "unique_count": 15,
+        "duplicate_value_count": 8,
+        "is_empty": false,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 3,
+        "negative_value_count": null,
+        "invalid_email_count": null,
+        "invalid_phone_count": 1,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 1
+      },
+      "loyalty_tier": {
+        "dtype": "float64",
+        "null_count": 20,
+        "null_percentage": 100.0,
+        "unique_count": 0,
+        "duplicate_value_count": 0,
+        "is_empty": true,
+        "has_leading_trailing_whitespace": false,
+        "whitespace_row_count": 0,
+        "special_character_row_count": 0,
+        "negative_value_count": null,
+        "invalid_email_count": null,
+        "invalid_phone_count": null,
+        "invalid_date_count": null,
+        "suspected_type_mismatch_count": 0
+      }
+    }
+  },
+  "cleaning_log": []
+}
