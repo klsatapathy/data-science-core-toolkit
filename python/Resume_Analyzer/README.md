@@ -96,7 +96,7 @@ python main.py rank --resume-dir sample_data --jd sample_data/job_description.tx
 
 ## 🌐 Live Demo
 
-Deployed at: _add your Streamlit Community Cloud link here after deploying_
+Deployed at:[ _add your Streamlit Community Cloud link here after deploying_](https://data-science-core-toolkit-4xhwvxx3wjzuhwguhazmwa.streamlit.app/)
 
 ## 🛠️ Tech Stack
 
