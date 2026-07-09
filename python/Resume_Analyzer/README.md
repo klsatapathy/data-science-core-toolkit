@@ -81,7 +81,7 @@ If you skip this step, the app still runs fine — the sidebar just shows those 
 
 ### Web app (recommended)
 ```bash
-streamlit run streamlit_app.py
+python -m streamlit run streamlit_app.py --server.headless true
 ```
 Opens at `http://localhost:8501`. Upload a resume, paste a job description, click **Analyze Resume**.
 
@@ -96,7 +96,7 @@ python main.py rank --resume-dir sample_data --jd sample_data/job_description.tx
 
 ## 🌐 Live Demo
 
-Deployed at:[ _add your Streamlit Community Cloud link here after deploying_](https://data-science-core-toolkit-4xhwvxx3wjzuhwguhazmwa.streamlit.app/)
+Deployed at:[ _Resume Analyzer_](https://data-science-core-toolkit-4xhwvxx3wjzuhwguhazmwa.streamlit.app/)
 
 ## 🛠️ Tech Stack
 
