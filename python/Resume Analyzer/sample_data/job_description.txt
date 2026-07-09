@@ -1,0 +1,22 @@
+Job Title: Data Scientist
+
+We are looking for a Data Scientist with strong experience in Python,
+machine learning, and data visualization. The ideal candidate has hands-on
+experience with pandas, scikit-learn, and either TensorFlow or PyTorch,
+and is comfortable writing SQL queries against large datasets.
+
+Requirements:
+- 2+ years of experience in data science or machine learning
+- Strong Python programming skills
+- Experience with pandas, numpy, and scikit-learn
+- Familiarity with deep learning frameworks (TensorFlow or PyTorch)
+- Experience with SQL and relational databases
+- Knowledge of data visualization tools such as Tableau or Power BI
+- Experience deploying models using Docker and AWS
+- Strong communication and problem solving skills
+- Bachelor's or Master's degree in Computer Science, Statistics, or related field
+
+Nice to have:
+- Experience with NLP or computer vision
+- Familiarity with Airflow for pipeline orchestration
+- Experience with time series forecasting

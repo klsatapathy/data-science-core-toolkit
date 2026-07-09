@@ -1,0 +1,34 @@
+Ananya Sharma
+Email: ananya.sharma@email.com | Phone: +91-9876543210
+LinkedIn: linkedin.com/in/ananya-sharma | GitHub: github.com/ananya-sharma
+
+SUMMARY
+Data scientist with 3 years of experience building machine learning
+models for e-commerce and fintech products.
+
+EXPERIENCE
+Data Scientist, RetailTech Solutions (2022 - Present)
+- Built and deployed a recommendation system using Python and scikit-learn,
+  improving click-through rate by 18%
+- Led a team of 3 to redesign the fraud detection pipeline, reducing false
+  positives by 25%
+- Developed deep learning models using TensorFlow for customer churn
+  prediction, achieving 91% accuracy
+- Automated ETL pipelines using Airflow, cutting data processing time by 40%
+- Created dashboards in Power BI to communicate model performance to
+  stakeholders
+
+Data Analyst, FinCorp (2021 - 2022)
+- Analyzed transactional data using SQL and pandas to identify spending
+  trends across 500K+ customers
+- Improved reporting turnaround time by 3x through query optimization
+
+EDUCATION
+B.Tech in Computer Science, Indian Institute of Technology (2017 - 2021)
+
+SKILLS
+Python, SQL, pandas, numpy, scikit-learn, TensorFlow, PyTorch, Docker, AWS,
+Power BI, machine learning, deep learning, NLP, data visualization, Airflow
+
+CERTIFICATIONS
+AWS Certified Machine Learning - Specialty
