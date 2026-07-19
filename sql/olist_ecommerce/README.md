@@ -48,22 +48,22 @@ An interactive 4-page dashboard (`Olist_Ecommerce_Dashboard.pbix`) connecting di
 ### Overview
 KPI cards, monthly revenue trend, MoM growth, order volume, RFM segment breakdown, and payment method mix.
 
-![Overview](screenshots/overview.png)
+![Overview](sql/olist_ecommerce/screenshots/overview.PNG)
 
 ### Products
 Category performance summary, volume-vs-price trade-off (bubble chart), and top categories by revenue/order volume.
 
-![Products](screenshots/products.png)
+![Products](sql/olist_ecommerce/screenshots/products.PNG)
 
 ### Customers
 Cohort retention heatmap, RFM segment table and donut chart.
 
-![Customers](screenshots/customers.png)
+![Customers](sql/olist_ecommerce/screenshots/customers.PNG)
 
 ### Operations
 Delivery timeliness vs. review score, delivery time by state, payment installments vs. order value.
 
-![Operations](screenshots/operations.png)
+![Operations](sql/olist_ecommerce/screenshots/operations.PNG)
 
 > **Note:** The `.pbix` file requires Power BI Desktop to open (free download). A live published version isn't available since Power BI Service publishing requires a work/school account — screenshots above cover the full dashboard.
 
