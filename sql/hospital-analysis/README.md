@@ -99,22 +99,22 @@ A 4-page interactive dashboard, styled with a custom theme (`hospital_theme.json
 ### Page 1 — Overview
 KPI cards (Total Revenue, Appointments, Collection Rate %, Lost Rate %, Patients) · monthly revenue trend · appointment status donut · billed amount by payment status · top unpaid bills table · revenue by doctor
 
-![Overview](sql/hospital-analysis/screenshots/overview.PNG)
+![Overview](screenshots/overview.PNG)
 
 ### Page 2 — Doctor Performance
 Revenue by doctor · lost (no-show/cancellation) rate by doctor · avg treatment cost by experience bucket · doctor rank within specialization table
 
-![Doctor Performance](sql/hospital-analysis/screenshots/doctor_performance.PNG)
+![Doctor Performance](screenshots/doctor_performance.PNG)
 
 ### Page 3 — Patients & Appointments
 RFM segment table & donut · status breakdown by reason for visit (matrix) · revenue by age bucket · lost rate by day of week · revenue by insurance provider
 
-![Patients & Appointments](sql/hospital-analysis/screenshots/patients_appointments.PNG)
+![Patients & Appointments](screenshots/patients_appointments.PNG)
 
 ### Page 4 — Billing & Revenue Risk
 KPIs (Total Billed, Collected Amount, Amount at Risk, At Risk %) · billed amount by payment status · high-value unpaid bills table · revenue by treatment type · failure rate by payment method
 
-![Billing & Revenue Risk]([sql/hospital-analysis/screenshots/billing_risk.PNG](https://github.com/klsatapathy/data-science-core-toolkit/blob/2fa0b6e452c61e365f809b194149b3fb9ecc01f5/sql/hospital-analysis/screenshots/billing_risk.PNG))
+![Billing & Revenue Risk](screenshots/billing_risk.PNG)
 
 > Add your own screenshots to `dashboard/screenshots/` with the filenames above (or update the paths here) for the images to render on GitHub.
 
