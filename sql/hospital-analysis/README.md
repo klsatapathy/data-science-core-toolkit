@@ -114,7 +114,7 @@ RFM segment table & donut · status breakdown by reason for visit (matrix) · re
 ### Page 4 — Billing & Revenue Risk
 KPIs (Total Billed, Collected Amount, Amount at Risk, At Risk %) · billed amount by payment status · high-value unpaid bills table · revenue by treatment type · failure rate by payment method
 
-![Billing & Revenue Risk](sql/hospital-analysis/screenshots/billing_risk.PNG)
+![Billing & Revenue Risk]([sql/hospital-analysis/screenshots/billing_risk.PNG](https://github.com/klsatapathy/data-science-core-toolkit/blob/2fa0b6e452c61e365f809b194149b3fb9ecc01f5/sql/hospital-analysis/screenshots/billing_risk.PNG))
 
 > Add your own screenshots to `dashboard/screenshots/` with the filenames above (or update the paths here) for the images to render on GitHub.
 
