@@ -82,22 +82,22 @@ A 4-page interactive dashboard with a custom Netflix-branded theme (red/dark pal
 ### Page 1 — Executive Overview
 KPI cards (Total Titles, Total Countries, Avg Movie Duration, Total Movies, % Single Season Shows, Total TV Shows) · titles added per year by type · movie/TV split donut · top 10 genres by title count · titles by country of origin (map)
 
-![Overview](screenshots/overview.png)
+![Overview](screenshots/overview.PNG)
 
 ### Page 2 — Content Trends
 Titles added by month (seasonality) · average gap: release year to Netflix add date, by type · top 10 genre additions over time (area chart) · top 5 genres for Movies vs. TV Shows · genre evolution: avg release year vs. popularity
 
-![Content Trends](screenshots/content_trends.png)
+![Content Trends](screenshots/content_trends.PNG)
 
 ### Page 3 — Geography & Cast
 Movie vs. TV show mix by top 8 countries · drill-through by country → genre · single-country vs. co-produced titles (donut) · top 10 director-actor collaborations (table) · top 10 actors and directors by title count
 
-![Geography & Cast](screenshots/geography_cast.png)
+![Geography & Cast](screenshots/geography_cast.PNG)
 
 ### Page 4 — Ratings & Duration
 Average movie duration by decade · TV show season distribution · content rating distribution · longest/shortest average runtime by genre
 
-![Ratings & Duration](screenshots/rating_duration.png)
+![Ratings & Duration](screenshots/rating_duration.PNG)
 
 > Add your own screenshots to `dashboard/screenshots/` with the filenames above (or update the paths here) for the images to render on GitHub.
 
