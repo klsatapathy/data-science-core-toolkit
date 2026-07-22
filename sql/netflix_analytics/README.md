@@ -99,7 +99,6 @@ Average movie duration by decade · TV show season distribution · content ratin
 
 ![Ratings & Duration](screenshots/rating_duration.PNG)
 
-> Add your own screenshots to `dashboard/screenshots/` with the filenames above (or update the paths here) for the images to render on GitHub.
 
 ## 💡 Key Insights
 
