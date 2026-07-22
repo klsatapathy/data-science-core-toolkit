@@ -87,7 +87,7 @@ KPI cards (Total Titles, Total Countries, Avg Movie Duration, Total Movies, % Si
 ### Page 2 — Content Trends
 Titles added by month (seasonality) · average gap: release year to Netflix add date, by type · top 10 genre additions over time (area chart) · top 5 genres for Movies vs. TV Shows · genre evolution: avg release year vs. popularity
 
-![Content Trends](sql/netflix_analytics/screenshots/content_trend.PNG)
+![Content Trends](screenshots/content_trend.PNG)
 
 ### Page 3 — Geography & Cast
 Movie vs. TV show mix by top 8 countries · drill-through by country → genre · single-country vs. co-produced titles (donut) · top 10 director-actor collaborations (table) · top 10 actors and directors by title count
