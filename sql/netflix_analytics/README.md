@@ -115,6 +115,3 @@ Average movie duration by decade · TV show season distribution · content ratin
 - **Analysis:** SQL (joins, subqueries, `CASE` expressions, window functions — `RANK`, recursive CTEs for genre/cast normalization)
 - **Dashboard:** Power BI Desktop, custom Netflix-branded theme
 
-## 📄 License
-
-Add a license (e.g. MIT) here if you intend this repo to be reused by others.
