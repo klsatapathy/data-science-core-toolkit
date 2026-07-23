@@ -116,7 +116,6 @@ KPIs (Total Billed, Collected Amount, Amount at Risk, At Risk %) · billed amoun
 
 ![Billing & Revenue Risk](screenshots/billing_risk.PNG)
 
-> Add your own screenshots to `dashboard/screenshots/` with the filenames above (or update the paths here) for the images to render on GitHub.
 
 ## 💡 Key Insights
 
@@ -132,6 +131,3 @@ KPIs (Total Billed, Collected Amount, Amount at Risk, At Risk %) · billed amoun
 - **EDA:** Python (pandas, seaborn, matplotlib)
 - **Dashboard:** Power BI Desktop, custom theme (`hospital_theme.json`)
 
-## 📄 License
-
-Add a license (e.g. MIT) here if you intend this repo to be reused by others.
