@@ -1,4 +1,4 @@
-# Swiggy / Zomato Food Delivery Analytics (SQL Project)
+# Zomato Food Delivery Analytics (SQL Project)
 
 End-to-end SQL analytics project on food delivery data — restaurant/cuisine ranking, revenue, repeat-customer behaviour, delivery performance, and peak-hour demand. Built in MySQL 8.0 / MySQL Workbench.
 
@@ -71,20 +71,20 @@ A 4-page interactive dashboard was built directly from the raw CSVs (Power Query
 ### Overview
 KPI cards (Total Revenue, Total Orders, Repeat Rate, Avg Delivery Time, Total Restaurants, Total Customers), monthly revenue trend, revenue-by-customer-type donut, top-restaurants table, revenue-by-city bar chart, and a year/month slicer.
 
-![Overview](screenshots/overview.png)
+![Overview](screenshots/overview.PNG)
 
 ### Restaurant & Cuisine Ranking
 Treemap of cuisine popularity, a rating-vs-cost scatter plot, a matrix of top-rated restaurants per city (with data bars), and a funnel of the top 10 restaurants by order volume.
 
-![Ranking](screenshots/ranking.png)
+![Ranking](screenshots/ranking.PNG)
 
 ### Customer Behaviour
 A Decomposition Tree breaking down revenue by customer type / city / currency, a Repeat Rate gauge (vs a 60% target), an order-frequency-band distribution chart, a restaurant-loyalty matrix, and a city revenue map.
 
-![Customer](screenshots/customer.png)
+![Customer](screenshots/customer.PNG)
 
 ### Delivery Performance & Peak Hours
 Avg delivery time and total-deliveries KPI cards, a weather-vs-traffic heatmap matrix, delivery time by city, an hourly order-volume area chart, and a festival-impact column chart.
 
-![Delivery](screenshots/delivery.png)
+![Delivery](screenshots/delivery.PNG)
 
