@@ -68,7 +68,7 @@ A 5-page interactive dashboard covering the full attrition story, from headline 
 ### Page 1 — Executive Summary
 KPI cards (Total Employees, Attrition Count, Attrition Rate %, Avg Tenure, Avg Income) · attrition gauge vs. target · attrition by department, gender & overtime · marital status split · top-5 job role attrition · income-band attrition · key-insight callouts
 
-![Executive Summary](Screenshots/Executive_Summary.PNG)
+![Executive Summary](Screenshots/Executive_Summery.PNG)
 
 ### Page 2 — Attrition Drivers
 Job role attrition ranking · satisfaction-score breakdown (Job / Environment / Work-Life Balance) · OverTime × Job Satisfaction risk heatmap · tenure-bucket attrition · stock-option-level attrition · risk-segment KPI cards
@@ -88,7 +88,7 @@ Age distribution · workforce by education field & department (treemaps) · busi
 ### Page 5 — Employee Explorer
 Filterable employee-level table with conditional formatting · synced slicers (Department, Job Role, OverTime, Attrition) · live-filtered KPI cards · attrition trend by tenure year · headcount vs. attrition rate by department (combo chart)
 
-![Employee Explorer](Screenshots/Employee_Explorer.PNG)
+![Employee Explorer](Screenshots/Employe_Explore.PNG)
 
 > Add your own screenshots to `dashboard/screenshots/` with the filenames above for the images to render on GitHub.
 
