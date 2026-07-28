@@ -45,13 +45,13 @@ sampling_bias_checker/
 
 **6. The Real-World Bias Check** — comparing the true population, a proper random sample, and a "helpful-sorted" sample (what a shopper actually sees) using a **one-sample t-test** against the known population mean, plus **Cohen's d** to separate statistical significance from practical significance
 
-**6b. Sensitivity Check** — repeating the bias check across N = 10–100 visible reviews to confirm the finding isn't an artifact of one arbitrary cutoff
+**7. Sensitivity Check** — repeating the bias check across N = 10–100 visible reviews to confirm the finding isn't an artifact of one arbitrary cutoff
 
-**6c. Confound Check** — isolating a single product to rule out "product mix" as an alternative explanation for the bias
+**8. Confound Check** — isolating a single product to rule out "product mix" as an alternative explanation for the bias
 
-**7. Bonus Check** — testing whether the same bias shows up in "would recommend" rate, not just star rating
+**9. Bonus Check** — testing whether the same bias shows up in "would recommend" rate, not just star rating
 
-**8. Key Findings & Recommendations** — summarized, business-facing conclusions
+**10. Key Findings & Recommendations** — summarized, business-facing conclusions
 
 ## 💡 Key Insights
 
